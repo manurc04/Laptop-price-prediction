@@ -77,7 +77,7 @@ Para reconstruir el dataset real desde cero:
 python data/prepare_kaggle_dataset.py
 ```
 
-## 🚀 Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 ```bash
 # 1. Clonar el repositorio
