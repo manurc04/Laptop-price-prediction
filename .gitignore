@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+env/
+.DS_Store
+*.egg-info/
+.vscode/
+.idea/
+
+# Modelos entrenados (se generan con src/train_model.py)
+models/*.joblib
+models/metrics.json
+
+# Datos generados (se generan con data/generate_dataset.py)
+# Descomenta la siguiente línea si prefieres no versionar el CSV:
+# data/raw/laptops.csv
